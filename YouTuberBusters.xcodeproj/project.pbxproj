@@ -13,6 +13,19 @@
 		5BB18A06234375EF00E4136D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A05234375EF00E4136D /* Assets.xcassets */; };
 		5BB18A09234375EF00E4136D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A07234375EF00E4136D /* LaunchScreen.storyboard */; };
 		5BB18A14234375EF00E4136D /* YouTuberBustersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB18A13234375EF00E4136D /* YouTuberBustersTests.swift */; };
+		5BE177D823437F05008015BE /* BoringSSL-GRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177CB23437F05008015BE /* BoringSSL-GRPC.framework */; };
+		5BE177D923437F05008015BE /* gRPC-C++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177CC23437F05008015BE /* gRPC-C++.framework */; };
+		5BE177DA23437F05008015BE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177CD23437F05008015BE /* RxCocoa.framework */; };
+		5BE177DB23437F05008015BE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177CE23437F05008015BE /* RxSwift.framework */; };
+		5BE177DC23437F05008015BE /* FirebaseFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177CF23437F05008015BE /* FirebaseFunctions.framework */; };
+		5BE177DD23437F05008015BE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D023437F05008015BE /* Alamofire.framework */; };
+		5BE177DE23437F05008015BE /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D123437F05008015BE /* Stripe.framework */; };
+		5BE177DF23437F05008015BE /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D223437F05008015BE /* leveldb-library.framework */; };
+		5BE177E023437F05008015BE /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D323437F05008015BE /* FirebaseFirestore.framework */; };
+		5BE177E123437F05008015BE /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D423437F05008015BE /* RxRelay.framework */; };
+		5BE177E223437F05008015BE /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D523437F05008015BE /* Protobuf.framework */; };
+		5BE177E323437F05008015BE /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D623437F05008015BE /* gRPC-Core.framework */; };
+		5BE177E423437F05008015BE /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D723437F05008015BE /* GTMSessionFetcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,21 @@
 		5BB18A0F234375EF00E4136D /* YouTuberBustersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTuberBustersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB18A13234375EF00E4136D /* YouTuberBustersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTuberBustersTests.swift; sourceTree = "<group>"; };
 		5BB18A15234375EF00E4136D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE177CB23437F05008015BE /* BoringSSL-GRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "BoringSSL-GRPC.framework"; path = "Carthage/Build/iOS/BoringSSL-GRPC.framework"; sourceTree = "<group>"; };
+		5BE177CC23437F05008015BE /* gRPC-C++.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-C++.framework"; path = "Carthage/Build/iOS/gRPC-C++.framework"; sourceTree = "<group>"; };
+		5BE177CD23437F05008015BE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5BE177CE23437F05008015BE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5BE177CF23437F05008015BE /* FirebaseFunctions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseFunctions.framework; path = Carthage/Build/iOS/FirebaseFunctions.framework; sourceTree = "<group>"; };
+		5BE177D023437F05008015BE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5BE177D123437F05008015BE /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = Carthage/Build/iOS/Stripe.framework; sourceTree = "<group>"; };
+		5BE177D223437F05008015BE /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Carthage/Build/iOS/leveldb-library.framework"; sourceTree = "<group>"; };
+		5BE177D323437F05008015BE /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseFirestore.framework; path = Carthage/Build/iOS/FirebaseFirestore.framework; sourceTree = "<group>"; };
+		5BE177D423437F05008015BE /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		5BE177D523437F05008015BE /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = Carthage/Build/iOS/Protobuf.framework; sourceTree = "<group>"; };
+		5BE177D623437F05008015BE /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-Core.framework"; path = "Carthage/Build/iOS/gRPC-Core.framework"; sourceTree = "<group>"; };
+		5BE177D723437F05008015BE /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		5BE177E623438030008015BE /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
+		5BE177E723438041008015BE /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE177D823437F05008015BE /* BoringSSL-GRPC.framework in Frameworks */,
+				5BE177D923437F05008015BE /* gRPC-C++.framework in Frameworks */,
+				5BE177DA23437F05008015BE /* RxCocoa.framework in Frameworks */,
+				5BE177DB23437F05008015BE /* RxSwift.framework in Frameworks */,
+				5BE177DC23437F05008015BE /* FirebaseFunctions.framework in Frameworks */,
+				5BE177DD23437F05008015BE /* Alamofire.framework in Frameworks */,
+				5BE177DE23437F05008015BE /* Stripe.framework in Frameworks */,
+				5BE177DF23437F05008015BE /* leveldb-library.framework in Frameworks */,
+				5BE177E023437F05008015BE /* FirebaseFirestore.framework in Frameworks */,
+				5BE177E123437F05008015BE /* RxRelay.framework in Frameworks */,
+				5BE177E223437F05008015BE /* Protobuf.framework in Frameworks */,
+				5BE177E323437F05008015BE /* gRPC-Core.framework in Frameworks */,
+				5BE177E423437F05008015BE /* GTMSessionFetcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +100,12 @@
 		5BB189F2234375ED00E4136D = {
 			isa = PBXGroup;
 			children = (
+				5BE177E623438030008015BE /* input.xcfilelist */,
+				5BE177E723438041008015BE /* output.xcfilelist */,
 				5BB189FD234375ED00E4136D /* YouTuberBusters */,
 				5BB18A12234375EF00E4136D /* YouTuberBustersTests */,
 				5BB189FC234375ED00E4136D /* Products */,
+				5BE177CA23437F05008015BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +140,26 @@
 			path = YouTuberBustersTests;
 			sourceTree = "<group>";
 		};
+		5BE177CA23437F05008015BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE177D023437F05008015BE /* Alamofire.framework */,
+				5BE177CB23437F05008015BE /* BoringSSL-GRPC.framework */,
+				5BE177D323437F05008015BE /* FirebaseFirestore.framework */,
+				5BE177CF23437F05008015BE /* FirebaseFunctions.framework */,
+				5BE177CC23437F05008015BE /* gRPC-C++.framework */,
+				5BE177D623437F05008015BE /* gRPC-Core.framework */,
+				5BE177D723437F05008015BE /* GTMSessionFetcher.framework */,
+				5BE177D223437F05008015BE /* leveldb-library.framework */,
+				5BE177D523437F05008015BE /* Protobuf.framework */,
+				5BE177CD23437F05008015BE /* RxCocoa.framework */,
+				5BE177D423437F05008015BE /* RxRelay.framework */,
+				5BE177CE23437F05008015BE /* RxSwift.framework */,
+				5BE177D123437F05008015BE /* Stripe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +170,7 @@
 				5BB189F7234375ED00E4136D /* Sources */,
 				5BB189F8234375ED00E4136D /* Frameworks */,
 				5BB189F9234375ED00E4136D /* Resources */,
+				5BE177E523437F1F008015BE /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -191,6 +256,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BE177E523437F1F008015BE /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BB189F7234375ED00E4136D /* Sources */ = {
@@ -362,6 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = YouTuberBusters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +470,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = YouTuberBusters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,5 @@
+github "ReactiveX/RxSwift" ~> 5.0
+github "Alamofire/Alamofire" "5.0.0-rc.2"
+github "stripe/stripe-ios"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFirestoreBinary.json"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFunctionsBinary.json"

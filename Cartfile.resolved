@@ -1,0 +1,5 @@
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFirestoreBinary.json" "6.9.0"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFunctionsBinary.json" "6.9.0"
+github "Alamofire/Alamofire" "5.0.0-rc.2"
+github "ReactiveX/RxSwift" "5.0.1"
+github "stripe/stripe-ios" "v17.0.2"
