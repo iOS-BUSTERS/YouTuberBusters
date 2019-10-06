@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B87D7CC2349FF5300501EE3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87D7CA2349FF5300501EE3 /* RxTest.framework */; };
+		5B87D7CD2349FF5300501EE3 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87D7CB2349FF5300501EE3 /* RxBlocking.framework */; };
 		5BB189FF234375ED00E4136D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB189FE234375ED00E4136D /* AppDelegate.swift */; };
 		5BB18A01234375ED00E4136D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB18A00234375ED00E4136D /* ViewController.swift */; };
 		5BB18A04234375EE00E4136D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A02234375EE00E4136D /* Main.storyboard */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B87D7C82349FE5600501EE3 /* testInput.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = testInput.xcfilelist; sourceTree = "<group>"; };
+		5B87D7C92349FE6800501EE3 /* testOutput.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = testOutput.xcfilelist; sourceTree = "<group>"; };
+		5B87D7CA2349FF5300501EE3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		5B87D7CB2349FF5300501EE3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5BB189FB234375ED00E4136D /* YouTuberBusters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTuberBusters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB189FE234375ED00E4136D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB18A00234375ED00E4136D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B87D7CC2349FF5300501EE3 /* RxTest.framework in Frameworks */,
+				5B87D7CD2349FF5300501EE3 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +110,8 @@
 			children = (
 				5BE177E623438030008015BE /* input.xcfilelist */,
 				5BE177E723438041008015BE /* output.xcfilelist */,
+				5B87D7C82349FE5600501EE3 /* testInput.xcfilelist */,
+				5B87D7C92349FE6800501EE3 /* testOutput.xcfilelist */,
 				5BB189FD234375ED00E4136D /* YouTuberBusters */,
 				5BB18A12234375EF00E4136D /* YouTuberBustersTests */,
 				5BB189FC234375ED00E4136D /* Products */,
@@ -143,6 +153,8 @@
 		5BE177CA23437F05008015BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B87D7CB2349FF5300501EE3 /* RxBlocking.framework */,
+				5B87D7CA2349FF5300501EE3 /* RxTest.framework */,
 				5BE177D023437F05008015BE /* Alamofire.framework */,
 				5BE177CB23437F05008015BE /* BoringSSL-GRPC.framework */,
 				5BE177D323437F05008015BE /* FirebaseFirestore.framework */,
@@ -188,6 +200,7 @@
 				5BB18A0B234375EF00E4136D /* Sources */,
 				5BB18A0C234375EF00E4136D /* Frameworks */,
 				5BB18A0D234375EF00E4136D /* Resources */,
+				5B87D7C72349FDCB00501EE3 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -258,17 +271,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5B87D7C72349FDCB00501EE3 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/testInput.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputFileListPaths = (
+				"$(SRCROOT)/testOutput.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
 		5BE177E523437F1F008015BE /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = Carthage;
 			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
 			);
 			outputPaths = (
 			);
@@ -493,6 +528,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = YouTuberBustersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,6 +553,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = YouTuberBustersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
