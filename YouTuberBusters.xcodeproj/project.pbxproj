@@ -10,8 +10,6 @@
 		5B87D7CC2349FF5300501EE3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87D7CA2349FF5300501EE3 /* RxTest.framework */; };
 		5B87D7CD2349FF5300501EE3 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87D7CB2349FF5300501EE3 /* RxBlocking.framework */; };
 		5BB189FF234375ED00E4136D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB189FE234375ED00E4136D /* AppDelegate.swift */; };
-		5BB18A01234375ED00E4136D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB18A00234375ED00E4136D /* ViewController.swift */; };
-		5BB18A04234375EE00E4136D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A02234375EE00E4136D /* Main.storyboard */; };
 		5BB18A06234375EF00E4136D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A05234375EF00E4136D /* Assets.xcassets */; };
 		5BB18A09234375EF00E4136D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB18A07234375EF00E4136D /* LaunchScreen.storyboard */; };
 		5BB18A14234375EF00E4136D /* YouTuberBustersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB18A13234375EF00E4136D /* YouTuberBustersTests.swift */; };
@@ -28,6 +26,27 @@
 		5BE177E223437F05008015BE /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D523437F05008015BE /* Protobuf.framework */; };
 		5BE177E323437F05008015BE /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D623437F05008015BE /* gRPC-Core.framework */; };
 		5BE177E423437F05008015BE /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE177D723437F05008015BE /* GTMSessionFetcher.framework */; };
+		5BFBADE6235606A700261621 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADE5235606A700261621 /* LaunchViewController.swift */; };
+		5BFBADE8235606BC00261621 /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBADE7235606BC00261621 /* LaunchViewController.storyboard */; };
+		5BFBADEB235606E000261621 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBADEA235606E000261621 /* HomeViewController.storyboard */; };
+		5BFBADED235606F100261621 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADEC235606F100261621 /* HomeViewController.swift */; };
+		5BFBADF12356073D00261621 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADF02356073D00261621 /* TabBarViewController.swift */; };
+		5BFBADF32356079900261621 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADF22356079900261621 /* HomeViewModel.swift */; };
+		5BFBADF6235607FB00261621 /* NSObjectProtcol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADF5235607FB00261621 /* NSObjectProtcol+Extensions.swift */; };
+		5BFBADF82356082200261621 /* UIStoryBoard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADF72356082200261621 /* UIStoryBoard+Extensions.swift */; };
+		5BFBADFD23560AB300261621 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBADFC23560AB300261621 /* FirstViewController.swift */; };
+		5BFBADFF23560AC400261621 /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBADFE23560AC400261621 /* FirstViewController.storyboard */; };
+		5BFBAE0123560AD400261621 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0023560AD400261621 /* FirstViewModel.swift */; };
+		5BFBAE0323560BA200261621 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0223560BA200261621 /* SecondViewController.storyboard */; };
+		5BFBAE0523560BBF00261621 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0423560BBF00261621 /* SecondViewController.swift */; };
+		5BFBAE0723560BCC00261621 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0623560BCC00261621 /* SecondViewModel.swift */; };
+		5BFBAE0923560C2500261621 /* ThirdViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0823560C2500261621 /* ThirdViewController.storyboard */; };
+		5BFBAE0B23560C3400261621 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0A23560C3400261621 /* ThirdViewController.swift */; };
+		5BFBAE0D23560C5B00261621 /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0C23560C5B00261621 /* ThirdViewModel.swift */; };
+		5BFBAE1023560CD700261621 /* ForthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBAE0F23560CD700261621 /* ForthViewController.storyboard */; };
+		5BFBAE1223560CE300261621 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE1123560CE300261621 /* ForthViewController.swift */; };
+		5BFBAE1423560D1B00261621 /* ForthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBAE1323560D1B00261621 /* ForthViewModel.swift */; };
+		5BFBAE1A23561AF600261621 /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFBAE1923561AF600261621 /* TabBarViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +66,6 @@
 		5B87D7CB2349FF5300501EE3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5BB189FB234375ED00E4136D /* YouTuberBusters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTuberBusters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB189FE234375ED00E4136D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BB18A00234375ED00E4136D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BB18A03234375EE00E4136D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB18A05234375EF00E4136D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB18A08234375EF00E4136D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB18A0A234375EF00E4136D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +87,27 @@
 		5BE177D723437F05008015BE /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		5BE177E623438030008015BE /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
 		5BE177E723438041008015BE /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
+		5BFBADE5235606A700261621 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		5BFBADE7235606BC00261621 /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
+		5BFBADEA235606E000261621 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		5BFBADEC235606F100261621 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5BFBADF02356073D00261621 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5BFBADF22356079900261621 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5BFBADF5235607FB00261621 /* NSObjectProtcol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtcol+Extensions.swift"; sourceTree = "<group>"; };
+		5BFBADF72356082200261621 /* UIStoryBoard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Extensions.swift"; sourceTree = "<group>"; };
+		5BFBADFC23560AB300261621 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5BFBADFE23560AC400261621 /* FirstViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
+		5BFBAE0023560AD400261621 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		5BFBAE0223560BA200261621 /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		5BFBAE0423560BBF00261621 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5BFBAE0623560BCC00261621 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		5BFBAE0823560C2500261621 /* ThirdViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdViewController.storyboard; sourceTree = "<group>"; };
+		5BFBAE0A23560C3400261621 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5BFBAE0C23560C5B00261621 /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
+		5BFBAE0F23560CD700261621 /* ForthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForthViewController.storyboard; sourceTree = "<group>"; };
+		5BFBAE1123560CE300261621 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		5BFBAE1323560D1B00261621 /* ForthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewModel.swift; sourceTree = "<group>"; };
+		5BFBAE1923561AF600261621 /* TabBarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +169,15 @@
 		5BB189FD234375ED00E4136D /* YouTuberBusters */ = {
 			isa = PBXGroup;
 			children = (
+				5BFBADF4235607E500261621 /* Extensions */,
+				5BFBADEF2356070D00261621 /* Common */,
+				5BFBADE42356066200261621 /* Launch */,
+				5BFBADE9235606C500261621 /* Home */,
+				5BFBADF923560A5000261621 /* First */,
+				5BFBADFA23560A5D00261621 /* Second */,
+				5BFBADFB23560A7000261621 /* Third */,
+				5BFBAE0E23560C7600261621 /* Forth */,
 				5BB189FE234375ED00E4136D /* AppDelegate.swift */,
-				5BB18A00234375ED00E4136D /* ViewController.swift */,
-				5BB18A02234375EE00E4136D /* Main.storyboard */,
 				5BB18A05234375EF00E4136D /* Assets.xcassets */,
 				5BB18A07234375EF00E4136D /* LaunchScreen.storyboard */,
 				5BB18A0A234375EF00E4136D /* Info.plist */,
@@ -170,6 +214,83 @@
 				5BE177D123437F05008015BE /* Stripe.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BFBADE42356066200261621 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBADE7235606BC00261621 /* LaunchViewController.storyboard */,
+				5BFBADE5235606A700261621 /* LaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5BFBADE9235606C500261621 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBADEA235606E000261621 /* HomeViewController.storyboard */,
+				5BFBADEC235606F100261621 /* HomeViewController.swift */,
+				5BFBADF22356079900261621 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5BFBADEF2356070D00261621 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBADF02356073D00261621 /* TabBarViewController.swift */,
+				5BFBAE1923561AF600261621 /* TabBarViewController.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5BFBADF4235607E500261621 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBADF5235607FB00261621 /* NSObjectProtcol+Extensions.swift */,
+				5BFBADF72356082200261621 /* UIStoryBoard+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5BFBADF923560A5000261621 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBADFE23560AC400261621 /* FirstViewController.storyboard */,
+				5BFBADFC23560AB300261621 /* FirstViewController.swift */,
+				5BFBAE0023560AD400261621 /* FirstViewModel.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		5BFBADFA23560A5D00261621 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBAE0223560BA200261621 /* SecondViewController.storyboard */,
+				5BFBAE0423560BBF00261621 /* SecondViewController.swift */,
+				5BFBAE0623560BCC00261621 /* SecondViewModel.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		5BFBADFB23560A7000261621 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBAE0823560C2500261621 /* ThirdViewController.storyboard */,
+				5BFBAE0A23560C3400261621 /* ThirdViewController.swift */,
+				5BFBAE0C23560C5B00261621 /* ThirdViewModel.swift */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		5BFBAE0E23560C7600261621 /* Forth */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBAE0F23560CD700261621 /* ForthViewController.storyboard */,
+				5BFBAE1123560CE300261621 /* ForthViewController.swift */,
+				5BFBAE1323560D1B00261621 /* ForthViewModel.swift */,
+			);
+			path = Forth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +376,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFBADEB235606E000261621 /* HomeViewController.storyboard in Resources */,
+				5BFBAE0323560BA200261621 /* SecondViewController.storyboard in Resources */,
+				5BFBADFF23560AC400261621 /* FirstViewController.storyboard in Resources */,
+				5BFBAE1A23561AF600261621 /* TabBarViewController.storyboard in Resources */,
 				5BB18A09234375EF00E4136D /* LaunchScreen.storyboard in Resources */,
 				5BB18A06234375EF00E4136D /* Assets.xcassets in Resources */,
-				5BB18A04234375EE00E4136D /* Main.storyboard in Resources */,
+				5BFBAE0923560C2500261621 /* ThirdViewController.storyboard in Resources */,
+				5BFBADE8235606BC00261621 /* LaunchViewController.storyboard in Resources */,
+				5BFBAE1023560CD700261621 /* ForthViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +445,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB18A01234375ED00E4136D /* ViewController.swift in Sources */,
+				5BFBADF12356073D00261621 /* TabBarViewController.swift in Sources */,
 				5BB189FF234375ED00E4136D /* AppDelegate.swift in Sources */,
+				5BFBADF6235607FB00261621 /* NSObjectProtcol+Extensions.swift in Sources */,
+				5BFBADFD23560AB300261621 /* FirstViewController.swift in Sources */,
+				5BFBADE6235606A700261621 /* LaunchViewController.swift in Sources */,
+				5BFBADF82356082200261621 /* UIStoryBoard+Extensions.swift in Sources */,
+				5BFBADF32356079900261621 /* HomeViewModel.swift in Sources */,
+				5BFBAE0D23560C5B00261621 /* ThirdViewModel.swift in Sources */,
+				5BFBAE1423560D1B00261621 /* ForthViewModel.swift in Sources */,
+				5BFBAE0723560BCC00261621 /* SecondViewModel.swift in Sources */,
+				5BFBAE0123560AD400261621 /* FirstViewModel.swift in Sources */,
+				5BFBAE1223560CE300261621 /* ForthViewController.swift in Sources */,
+				5BFBAE0523560BBF00261621 /* SecondViewController.swift in Sources */,
+				5BFBAE0B23560C3400261621 /* ThirdViewController.swift in Sources */,
+				5BFBADED235606F100261621 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,14 +482,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5BB18A02234375EE00E4136D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BB18A03234375EE00E4136D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BB18A07234375EF00E4136D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
